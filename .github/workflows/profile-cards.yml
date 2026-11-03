@@ -2,12 +2,15 @@ name: Generate GitHub profile dashboard
 on:
   push:
     branches: [main]
-    paths: ['README.md', '.github/workflows/profile-cards.yml']
+    paths: ['README.md', '.github/workflows/profile-cards.yml', 'scripts/curate_overview.py']
   schedule:
     - cron: '17 2 * * *'
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: profile-dashboard
+  cancel-in-progress: false
 jobs:
   cards:
     runs-on: ubuntu-latest
@@ -23,5 +26,24 @@ jobs:
           output-dir: assets
           themes: dark
           palette: green
-          commit: true
-          commit-message: 'chore(profile): refresh GitHub analytics [skip ci]'
+          commit: false
+      - name: Reflow overview without PR and issues cards
+        run: python3 scripts/curate_overview.py assets/overview.dark.svg
+      - name: Publish refreshed statistics
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/overview.dark.svg assets/contributions.dark.svg assets/lifetime.dark.svg assets/cadence.dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore(profile): refresh curated statistics [skip ci]'
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1
