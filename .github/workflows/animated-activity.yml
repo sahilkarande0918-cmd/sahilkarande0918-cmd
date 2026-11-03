@@ -8,14 +8,44 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: profile-animated-activity
+  cancel-in-progress: false
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
-      - name: Generate full-size desktop and mobile animated contribution SVGs
+        with:
+          fetch-depth: 0
+      - name: Generate animated contribution SVGs
+        id: graph
+        continue-on-error: true
         uses: alexcerezo/activity-graph@v1
         with:
           username: sahilkarande0918-cmd
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Verify images and reconcile concurrent updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s activity-graph.svg
+          test -s activity-graph-mobile.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activity-graph.svg activity-graph-mobile.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): refresh animated heatmap [skip ci]"
+          fi
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "Animated SVGs published successfully."
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Unable to push generated SVGs after retries" >&2
+          exit 1
