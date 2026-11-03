@@ -42,45 +42,32 @@ I’m **Sahil Karande**, a computer science (AI &amp; ML) student who builds **a
   <img src="./assets/overview.dark.svg" width="100%" alt="Live GitHub overview with total visible contributions, repositories, stars and followers"/>
 </div>
 
-### Languages & technologies
+### Engineering focus
 
-<div align="center">
-  <img src="./assets/languages.dark.svg" width="100%" alt="Full-size language treemap with readable labels and repository breakdown"/>
-</div>
-
-### The contribution landscape
-
-<div align="center">
-  <img src="./assets/contributions.dark.svg" width="100%" alt="Full-size 3D GitHub contribution landscape and streaks for the past year"/>
-</div>
-
-## Contributions, in motion
-
-<!-- Self-hosted, animated SVGs generated from the GitHub contributions API every day. -->
 <div align="center">
   <picture>
-    <source media="(max-width: 767px)" srcset="./activity-graph-mobile.svg" />
-    <img src="./activity-graph.svg" width="100%" alt="Animated contribution heatmap with green twinkling activity cells and monthly labels" />
+    <source media="(max-width: 700px)" srcset="./assets/engineering-focus-mobile.svg"/>
+    <img src="./assets/engineering-focus.svg" width="100%" alt="Four engineering focus areas: autonomous agents, reliable AI, applied machine learning and product engineering"/>
   </picture>
 </div>
 
-### Lifetime contribution history
+### Contributions & coding history
 
 <div align="center">
-  <img src="./assets/lifetime.dark.svg" width="100%" alt="Year-by-year GitHub contributions, with each year's calendar shown as a heatmap"/>
+  <img src="./assets/contributions.dark.svg" width="100%" alt="Full-size GitHub 3D contribution landscape and streaks for the past year"/>
 </div>
 
 <details>
-  <summary><strong>Explore more: coding rhythm, trends and the snake</strong></summary>
+  <summary><strong>More GitHub history and coding rhythm</strong></summary>
   <br/>
   <div align="center">
-    <img src="./assets/momentum.dark.svg" width="100%" alt="Contribution momentum over time"/>
+    <img src="./assets/lifetime.dark.svg" width="100%" alt="Contribution history by year"/>
     <br/><br/>
-    <img src="./assets/cadence.dark.svg" width="100%" alt="Full-size weekday and hour coding rhythm"/>
+    <img src="./assets/cadence.dark.svg" width="100%" alt="Coding rhythm across days and hours"/>
     <br/><br/>
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake-dark.svg" />
-      <img src="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake.svg" width="100%" alt="Optional GitHub contribution snake animation" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake-dark.svg"/>
+      <img src="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake.svg" width="100%" alt="Contribution snake"/>
     </picture>
   </div>
 </details>

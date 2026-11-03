@@ -14,12 +14,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Generate real GitHub stats, languages and 3D calendar
+      - name: Generate real GitHub stats and 3D contribution calendar
         uses: seijikohara/profile-cards-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: sahilkarande0918-cmd
-          cards: overview,languages,contributions,lifetime,momentum,cadence
+          cards: overview,contributions,lifetime,cadence
           output-dir: assets
           themes: dark
           palette: green

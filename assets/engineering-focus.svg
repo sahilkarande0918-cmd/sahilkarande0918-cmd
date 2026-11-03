@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="419" viewBox="0 0 1120 419" role="img" aria-label="Engineering focus: agent systems, reliable AI, applied machine learning, and product engineering">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0C1216"/><stop offset="1" stop-color="#0A1518"/></linearGradient></defs>
+ <rect x="1" y="1" width="1118" height="417" rx="20" fill="url(#bg)" stroke="#29403F"/>
+ <g font-family="Arial,Helvetica,sans-serif"><circle cx="32" cy="37" r="5" fill="#80E8A3"/><text x="47" y="43" font-size="17" fill="#7FE7A0" font-weight="700" letter-spacing="2">ENGINEERING FOCUS</text><text x="1088" y="43" text-anchor="end" fill="#819598" font-size="14" letter-spacing=".7">THOUGHTFUL SOFTWARE  /  REAL PROJECTS</text></g><g>
+  <rect x="20" y="70" width="252" height="325" rx="16" fill="#111A20" stroke="#26373B"/>
+  <path d="M36 71H110" stroke="#7EF0A0" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="37" y="100" fill="#93A9AC" font-size="13" letter-spacing="1.4" font-family="Arial,Helvetica,sans-serif">01 / AGENT SYSTEMS</text>
+  <g transform="translate(197,113)" fill="none" stroke="#7EF0A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx='13' cy='8' r='4'/><circle cx='40' cy='18' r='4'/><circle cx='15' cy='40' r='4'/><path d='M17 10L36 17M15 12V36M19 39L37 21'/></g>
+  <text x="37" y="171" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">Autonomous</text>
+  <text x="37" y="203" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">workflows</text>
+  <text x="37" y="249" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">Tool-using agents,</text><text x="37" y="274" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">MCP orchestration and</text><text x="37" y="299" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">automated red-teaming.</text>
+  <path d="M37 341H255" stroke="#2C3E43"/>
+  <text x="37" y="367" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" fill="#7EF0A0">Agent Fleet  /  OSS Forge</text>
+  </g><g>
+  <rect x="296" y="70" width="252" height="325" rx="16" fill="#111A20" stroke="#26373B"/>
+  <path d="M312 71H386" stroke="#67CDBB" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="313" y="100" fill="#93A9AC" font-size="13" letter-spacing="1.4" font-family="Arial,Helvetica,sans-serif">02 / RELIABLE AI</text>
+  <g transform="translate(473,113)" fill="none" stroke="#67CDBB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d='M26 3 44 10V24Q44 37 26 46 8 37 8 24V10Z'/><path d='m17 25 6 6 13-14'/></g>
+  <text x="313" y="171" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">Evidence over</text>
+  <text x="313" y="203" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">assumptions</text>
+  <text x="313" y="249" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">Verifiable outputs,</text><text x="313" y="274" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">explainability and</text><text x="313" y="299" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">human-in-the-loop design.</text>
+  <path d="M313 341H531" stroke="#2C3E43"/>
+  <text x="313" y="367" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" fill="#67CDBB">Veris  /  AeroPulse AI</text>
+  </g><g>
+  <rect x="572" y="70" width="252" height="325" rx="16" fill="#111A20" stroke="#26373B"/>
+  <path d="M588 71H662" stroke="#82AFF4" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="589" y="100" fill="#93A9AC" font-size="13" letter-spacing="1.4" font-family="Arial,Helvetica,sans-serif">03 / APPLIED ML</text>
+  <g transform="translate(749,113)" fill="none" stroke="#82AFF4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d='M6 43V8M6 43H47M12 36L23 23L31 29L45 11'/><circle cx='12' cy='36' r='2'/><circle cx='23' cy='23' r='2'/><circle cx='31' cy='29' r='2'/><circle cx='45' cy='11' r='2'/></g>
+  <text x="589" y="171" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">Models with</text>
+  <text x="589" y="203" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">purpose</text>
+  <text x="589" y="249" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">Predictive intelligence,</text><text x="589" y="274" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">computer vision and</text><text x="589" y="299" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">accessible technology.</text>
+  <path d="M589 341H807" stroke="#2C3E43"/>
+  <text x="589" y="367" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" fill="#82AFF4">KisaanRaksha  /  Drishti</text>
+  </g><g>
+  <rect x="848" y="70" width="252" height="325" rx="16" fill="#111A20" stroke="#26373B"/>
+  <path d="M864 71H938" stroke="#9DA9F7" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="865" y="100" fill="#93A9AC" font-size="13" letter-spacing="1.4" font-family="Arial,Helvetica,sans-serif">04 / PRODUCT ENGINEERING</text>
+  <g transform="translate(1025,113)" fill="none" stroke="#9DA9F7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x='6' y='10' width='40' height='29' rx='4'/><path d='M6 18h40M16 27h9M16 32h15'/><circle cx='11' cy='14' r='1' fill='#9DA9F7' stroke='none'/></g>
+  <text x="865" y="171" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">From prototype</text>
+  <text x="865" y="203" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#F0F5F6">to product</text>
+  <text x="865" y="249" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">End-to-end platforms,</text><text x="865" y="274" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">practical UX and</text><text x="865" y="299" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#9DAEB4">production-minded builds.</text>
+  <path d="M865 341H1083" stroke="#2C3E43"/>
+  <text x="865" y="367" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" fill="#9DA9F7">Reel Studio  /  JanYojna</text>
+  </g><path d="M20 408H1100" stroke="#26443F"/><text x="30" y="412" fill="#647977" font-family="Arial" font-size="9">BUILD  /  TEST  /  SHIP</text></svg>
