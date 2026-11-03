@@ -1,0 +1,27 @@
+name: Generate GitHub profile dashboard
+on:
+  push:
+    branches: [main]
+    paths: ['README.md', '.github/workflows/profile-cards.yml']
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate real GitHub stats, languages and 3D calendar
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: sahilkarande0918-cmd
+          cards: overview,languages,contributions,momentum,cadence
+          output-dir: assets
+          themes: dark
+          palette: green
+          commit: true
+          commit-message: 'chore(profile): refresh GitHub analytics [skip ci]'
