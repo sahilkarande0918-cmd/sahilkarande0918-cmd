@@ -37,31 +37,52 @@ I’m **Sahil Karande**, a computer science (AI &amp; ML) student who builds **a
 
 ## GitHub at a glance
 
-<!-- Created by GitHub Actions from actual account data. -->
+<!-- Live GitHub statistics. These are generated from GitHub data every day; never hand-entered. -->
 <div align="center">
-  <img src="./assets/overview.dark.svg" width="100%" alt="GitHub overview, repositories and activity"/>
-</div>
-<div align="center">
-  <img src="./assets/languages.dark.svg" width="49%" alt="GitHub language mix"/>
-  <img src="./assets/contributions.dark.svg" width="49%" alt="Isometric contribution calendar"/>
+  <img src="./assets/overview.dark.svg" width="100%" alt="Live GitHub overview with total visible contributions, repositories, stars and followers"/>
 </div>
 
-<details><summary><strong>More activity: momentum and coding rhythm</strong></summary>
+### Languages & technologies
+
 <div align="center">
- <img src="./assets/momentum.dark.svg" width="49%" alt="Contribution momentum"/>
- <img src="./assets/cadence.dark.svg" width="49%" alt="Coding rhythm"/>
+  <img src="./assets/languages.dark.svg" width="100%" alt="Full-size language treemap with readable labels and repository breakdown"/>
 </div>
+
+### The contribution landscape
+
+<div align="center">
+  <img src="./assets/contributions.dark.svg" width="100%" alt="Full-size 3D GitHub contribution landscape and streaks for the past year"/>
+</div>
+
+## Contributions, in motion
+
+<!-- Self-hosted, animated SVGs generated from the GitHub contributions API every day. -->
+<div align="center">
+  <picture>
+    <source media="(max-width: 767px)" srcset="./activity-graph-mobile.svg" />
+    <img src="./activity-graph.svg" width="100%" alt="Animated contribution heatmap with green twinkling activity cells and monthly labels" />
+  </picture>
+</div>
+
+### Lifetime contribution history
+
+<div align="center">
+  <img src="./assets/lifetime.dark.svg" width="100%" alt="Year-by-year GitHub contributions, with each year's calendar shown as a heatmap"/>
+</div>
+
+<details>
+  <summary><strong>Explore more: coding rhythm, trends and the snake</strong></summary>
+  <br/>
+  <div align="center">
+    <img src="./assets/momentum.dark.svg" width="100%" alt="Contribution momentum over time"/>
+    <br/><br/>
+    <img src="./assets/cadence.dark.svg" width="100%" alt="Full-size weekday and hour coding rhythm"/>
+    <br/><br/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake-dark.svg" />
+      <img src="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake.svg" width="100%" alt="Optional GitHub contribution snake animation" />
+    </picture>
+  </div>
 </details>
-
-## Contribution activity
-
-<div align="center">
- <img src="https://github-readme-activity-graph.vercel.app/graph?username=sahilkarande0918-cmd&amp;bg_color=0d1117&amp;color=c2d4ce&amp;line=80e66c&amp;point=66e8b4&amp;area=true&amp;hide_border=true" width="100%" alt="Recent GitHub activity chart"/>
-</div>
-
-<div align="center">
- <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake-dark.svg"/>
- <img src="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake.svg" width="100%" alt="Animated contribution calendar snake"/></picture>
-</div>
 <div align="center"><a href="https://github.com/sahilkarande0918-cmd?tab=repositories">Explore all repositories</a> · <a href="https://linkedin.com/in/sahil-karande-a4722b386">Connect on LinkedIn</a></div>
 <div align="center"><img src="./assets/footer.svg" width="100%" alt="Build it. Verify it. Ship it."/></div>

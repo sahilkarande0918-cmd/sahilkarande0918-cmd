@@ -1,0 +1,21 @@
+name: Animated contribution heatmap
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/animated-activity.yml']
+  schedule:
+    - cron: '21 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Generate full-size desktop and mobile animated contribution SVGs
+        uses: alexcerezo/activity-graph@v1
+        with:
+          username: sahilkarande0918-cmd
+          token: ${{ secrets.GITHUB_TOKEN }}

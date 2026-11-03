@@ -19,7 +19,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: sahilkarande0918-cmd
-          cards: overview,languages,contributions,momentum,cadence
+          cards: overview,languages,contributions,lifetime,momentum,cadence
           output-dir: assets
           themes: dark
           palette: green
