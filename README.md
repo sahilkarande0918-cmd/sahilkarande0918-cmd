@@ -3,7 +3,7 @@
   <br/>
   <a href="https://github.com/sahilkarande0918-cmd"><img src="https://img.shields.io/badge/GitHub-141C20?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/></a>
   <a href="https://linkedin.com/in/sahil-karande-a4722b386"><img src="https://img.shields.io/badge/LinkedIn-141C20?style=for-the-badge&amp;logo=linkedin&amp;logoColor=8DF76A" alt="LinkedIn"/></a>
-  <a href="https://my-portfolio-ten-plum-30.vercel.app"><img src="https://img.shields.io/badge/Portfolio-141C20?style=for-the-badge&amp;logo=vercel&amp;logoColor=8DF76A" alt="Portfolio"/></a>
+  <a href="https://thesahilkarande.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-141C20?style=for-the-badge&amp;logo=vercel&amp;logoColor=8DF76A" alt="Portfolio"/></a>
   <br/><br/>
   <strong>AI systems · Autonomous agents · Machine learning · Full-stack products</strong>
 </div>
