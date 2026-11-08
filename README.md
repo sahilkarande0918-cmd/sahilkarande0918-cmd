@@ -51,25 +51,11 @@ I’m **Sahil Karande**, a computer science (AI &amp; ML) student who builds **a
   </picture>
 </div>
 
-### Contributions & coding history
+### Contribution landscape
 
 <div align="center">
   <img src="./assets/contributions.dark.svg" width="100%" alt="Full-size GitHub 3D contribution landscape and streaks for the past year"/>
 </div>
 
-<details>
-  <summary><strong>More GitHub history and coding rhythm</strong></summary>
-  <br/>
-  <div align="center">
-    <img src="./assets/lifetime.dark.svg" width="100%" alt="Contribution history by year"/>
-    <br/><br/>
-    <img src="./assets/cadence.dark.svg" width="100%" alt="Coding rhythm across days and hours"/>
-    <br/><br/>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake-dark.svg"/>
-      <img src="https://raw.githubusercontent.com/sahilkarande0918-cmd/sahilkarande0918-cmd/output/github-snake.svg" width="100%" alt="Contribution snake"/>
-    </picture>
-  </div>
-</details>
 <div align="center"><a href="https://github.com/sahilkarande0918-cmd?tab=repositories">Explore all repositories</a> · <a href="https://linkedin.com/in/sahil-karande-a4722b386">Connect on LinkedIn</a></div>
 <div align="center"><img src="./assets/footer.svg" width="100%" alt="Build it. Verify it. Ship it."/></div>
